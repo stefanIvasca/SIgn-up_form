@@ -11,6 +11,60 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    aaa
+    <div>
+        <img src="odin_logo.png">
+        <p class="logoText">Trip to Valhalla</p>
+    </div>
+    <div class="info">
+        <p>This is not a real online service! Not that it could
+            really be... But such a trip sounds nice, so this 
+            is like an idea for someone that has some connections
+            with The Great Odin.
+        </p>
+        <p>Sign-up for this trip down below!</p>
+        <div class="personalInfo">
+            <div>
+                <form action="", method="post">
+                    <label for="first_name">
+                        *First name:
+                    </label>
+                    <input type="text" id="first_name" name="first_name" placeholder="Odin" required minlength="2" maxlength="20">
+                </form>
+                <form action="", method="post">
+                    <label for="user_email">
+                        *Email Address:
+                    </label>
+                    <input type="email" id="user_email" name="email" placeholder="odin@example.com" required>
+                </form>
+                <form action="", method="post">
+                    <label for="user_password">
+                        *Password:
+                    </label>
+                    <input type="password" id="user_password" name="password" placeholder="not1234" required>
+                </form>
+            </div>
+            <div>
+                <form action="", method="post">
+                    <label for="last_name">
+                        Last name:
+                    </label>
+                    <input type="text" id="last_name" name="last_name" placeholder="Son" required maxlength="20">
+                </form>
+                <form action="", method="post">
+                    <label for="user_number">
+                        *Phone number:
+                    </label>
+                    <input type="number" id="user_number" name="number" placeholder="0766666666" required max="9999999999">
+                </form>
+                <form action="", method="post">
+                    <label for="user_password">
+                        *Confirm Password:
+                    </label>
+                    <input type="password" id="user_password" name="password" placeholder="not1234" required>
+                </form>
+            </div>
+        </div>
+        <button type="submit" class="submit_button">Sign-up</button>
+    </div>
 </body>
 </html>

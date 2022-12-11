@@ -1,3 +1,39 @@
 body{
-    font-family:'Rubik Vinyl', cursive;;
+    background-image: url(https://wallpaperaccess.com/full/1617806.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 40px;
+    color: white;
+    display: flex;
+    column-gap: 250px;
+    
+}
+
+.logoText{
+    font-family:'Rubik Vinyl', cursive, Arial, sans-serif;
+    font-size: 48px;
+}
+
+.personalInfo{
+    display: flex;
+    column-gap: 100px;
+    max-width: 620px;
+}
+
+.info{
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgba(0,0,0,0.25);
+    border-radius: 10px;
+    box-shadow: 15px 15px 20px rgba(0,0,0,0.15),
+                -15px -15px 20px rgba(0,0,0,0.15);
+}
+
+.submit_button{
+    margin-top: 40px;
+    padding: 10px 30px;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: rgba(255,255,255,0.65);
 }
